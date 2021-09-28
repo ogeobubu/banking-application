@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Banking Application - Sign In</title>
+  </head>
+  <body>
+    <header id="nav-header">
+      <h1>Trusty Bank Services</h1>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="alert success"></div>
+
+        <h2>Trusty Banking Registration</h2>
+
+        <div class="form-box">
+          <form id="form">
+            <h5>
+              To register, please provide your Trusty Debit Card Details and
+              Online Sign up details
+            </h5>
+
+            <div class="formControl">
+              <label>First Name</label>
+              <input required type="text" id="firstName" />
+            </div>
+
+            <div class="formControl">
+              <label>Last Name</label>
+              <input required type="lastName" id="lastName" />
+            </div>
+
+            <div class="formControl">
+              <label>Password</label>
+              <input required type="password" id="password" />
+            </div>
+
+            <div class="formControl">
+              <label>Account Number</label>
+              <input required type="number" id="accountNumber" />
+            </div>
+
+            <h5>Card details</h5>
+
+            <div class="formControl">
+              <label>First 6 digits</label>
+              <input required type="number" id="six_digits_card" />
+            </div>
+
+            <div class="formControl">
+              <label>Last 4 digits</label>
+              <input required type="number" id="four_digits_card" />
+            </div>
+
+            <div class="formControl">
+              <label>Debit Card PIN</label>
+              <input required type="password" id="pin" />
+            </div>
+
+            <div class="formControl">
+              <label>Expiry Date(YYYY-MM)</label>
+              <input required type="text" id="expiry" />
+            </div>
+
+            <div class="formControl">
+              <label>Referral ID(Optional)</label>
+              <input required type="text" id="referral" />
+            </div>
+
+            <div id="button">
+              <button type="submit">Submit</button>
+              <a id="button" href="./index.html">Back</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
